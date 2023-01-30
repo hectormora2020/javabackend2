@@ -31,7 +31,7 @@ public class UsuariosController {
 
 
     @PostMapping
-    public ResponseEntity<Void> crearCliente(@Valid @RequestBody Usuario usuario) {
+    public ResponseEntity<Usuario> crearUsuario(@Valid @RequestBody Usuario usuario) {
         return ResponseEntity.created( URI.create("") ).build();
 
     }
