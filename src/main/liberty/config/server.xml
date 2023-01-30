@@ -13,6 +13,6 @@
 
     <springBootApplication id="guide-spring-boot"
                            location="thin-proyecto-0.0.1-SNAPSHOT.jar"
-                           name="sesion08" />
+                           name="proyecto" />
 
 </server>
